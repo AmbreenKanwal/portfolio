@@ -1,110 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!--page titlle-->
     <title>My Porfolio</title>
-    
+
     <!--custom style sheet-->
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
 
     <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
 
 
     <!--font awesome(icons)-->
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 
 <body>
-    <!--navbar-->
-<div class="navbar">
-    <!--navbar code-->
-    <nav>
-     <a href="#">
-    <h1 class="heading logo">iam<span class="name">AmbreenKanwal</span></h1>
-     </a>
- <!--men item list-->
-    <ul class="menu item list">
-        <!--code item list-->
-       <li><a href="#"></a>home</li>
-       <li><a href="#"></a>home</li>
-       <li><a href="#"></a>home</li>
-       <li><a href="#"></a>home</li>
-       <li><a href="#"></a>home</li>
-    </ul>
- 
-  
-   
-    <div>
-        <a href=""><button class="btn">Get in touch</button></a>
+    <!--navbar section-->
+    <div class="main">
+        <nav>
+            <!--logo-->
+            <a href="#">
+                <h1 class="logo-heading">iam<span class="name">AmbreenKanwal</span></h1>
+            </a>
+            <!--menu item -->
+            <ul class="menu">
+                <!--code item list-->
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#my-projects">Recent</a></li>
+                <li><a href="#client">Clients</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#" class="get-in-touch">Get in touch</a>
+        </nav>
     </div>
-</nav>
 
+    <!-- main -content-->
+    <div class="content">
+        <!--div for left-->
+        <div class="model">
+            <img src="./image/fullstack.png" alt="">
+        </div>
+        <!--div for right-->
+        <div class="main-text">
+            <h1 class="logo-heading">iam<span class="name">AmbreenKanwal</span></h1>
+
+            <p> I am Ambreen Kanwal and I love building Web applications</p>
+            <P>I like to Write Optimized Code</P>
+            <a href="" class="portfolio-button">Get in Touch</a>
+        </div>
+    </div>
+
+    <!--skill-->
+    <div class="skills">
+        <!--skill code-->
+        <div class="skill-text">
+            <div class="skill-heading">
+                <span>My Skills</span>
+                <h2>My Experties</h2>
+            </div>
+            <!-- Skill Description -->
+            <div class="s-box-container">
+
+                <!-- skill box 1 -->
+                <div class=skill-box>
+                    <div class="s-box-icon">
+                        <!-- Add icon code -->
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <div class="s-box-text">
+                        <strong>HTML</strong>
+                        <p>I am an expert in HTML</p>
+                    </div>
+                </div>
+                <!-- skillbox 2 -->
+                <div class=skill-box>
+                    <div class="s-box-icon">
+                        <!-- Add icon code -->
+                        <i class="fab fa-css3"></i>
+                    </div>
+                    <div class="s-box-text">
+                        <strong>CSS</strong>
+                        <p>I am also also expert in CSS</p>
+                    </div>
+                </div>
+                <!-- skillbox 3 -->
+                <div class=skill-box>
+
+                    <div class="s-box-icon">
+                        <!-- Add icon code -->
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <div class="s-box-text">
+                        <STrong>JavaScrip</STrong>
+                        <p>I am becoming expert in JavaScrip </p>
+                    </div>
+                </div>
+                <!-- skillbox 4 -->
+
+                <div class=skill-box>
+
+                    <div class="s-box-icon">
+                        <!-- Add icon code -->
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <div class="s-box-text">
+                        <STrong>Python</STrong>
+                        <p>I am still learning Python </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- skill image -->
+        <div class="skill-img">
+            <img src="./image/model1.jpg" alt="">
+        </div>
+    </div>
+
+    <!--project-->
+    <div class="my-projects">
+        <!-- Project Heading -->
+        <div class="skill-heading">
+            <span> Projects</span>
+            <h2>My Happy Client</h2>
+        </div>
+        <!-- Project Heading -->
+        <div class="project-showcase">
+            <!-- projec 1 -->
+            <div class="project one">
+                <div id="hide">
+                    <p class="project-text">Happy Client Projects</p>
+                    <a class="project-btn">Visit Website</a>
+                    
+                </div>
+            </div>
+            <!-- project 2 -->
+            <div class="project two">
+                <div id="hide">
+                    <p class="project-text">Happy Client Projects</p>
+                    <a class="project-btn">Visit Website</a>
+                </div>
+            </div>
+            <!-- project 3 -->
+            <div class="project three">
+                <div id="hide">
+                    <p class="project-text">Happy Client Projects</p>
+                    <a class="project-btn">Visit Website</a>
+                </div>
+            </div>
+        </div>
 </div>
+        <!--client testimonials-->
+        <section><div class="clients">
+            <!--client code-->
+            <div class="clinet-heading">
+                <div>
+                    <span>TESTIMONIALS</span>
+                <h2>Here From My Happy Client</h2>
+                </div>
+            </div>
+            <div class="c-box-container">
+                <!-- client box 1 -->
+                <div class="client-box">
+                    <img src="./image/download.png" alt="">
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <p>I had great experience working with them</p>
+                    <a href="#">Read More</a>
 
-<!--landing main -content-->
-<div class="content">
-<!--add code for content-->
+                </div>
+                <!-- client box 2 -->
+                <div class="client-box">
+                    <img src="./image/images (1).png" alt="">
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>I had great experience working with them</p>
+                    <a href="#">Read More</a>
 
-</div>
+                </div>
+                <!-- client box 3 -->
+                <div class="client-box">
+                    <img src="./image/images.png" alt="">
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>I had great experience working with them</p>
+                    <a href="#">Read More</a>
 
-<!--skill-->
-<div class="skill">
-<!--skill code-->
+                </div>
+            </div>
 
-</div>
+        </div></section>
 
-<!--project-->
-<div class="proect">
-<!--project code-->
-</div>
+        
 
-<!--client-->
-<div class="client">
-    <!--client code-->
+        <!--contact-->
+        <section>
+            <div class="contact">
+                <!--contact code-->
+                <div class="contact">
+                    <img src="./image/WhatsApp Image 2022-02-03 at 3.52.12 AM (1).jpeg" alt="contact us image" />
+                    <h3>Let's work together - contact me</h3>
+                    <div class="contact-input">
+                        <input type="email" placeholder="ambreenkanwal50@gmail.com" />
+                        <a href="">Let's Connect</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
 
-</div>
-
-<!--contact-->
-<div class="contact">
-    <!--contact code-->
-</div>
-
-<!--footer-->
-<footer>
-    <!--footer code-->
-</footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <footer>
+            ⒸCopyright:AmbreenKanwal
+        </footer>
 
 
 </body>
+
 </html>
