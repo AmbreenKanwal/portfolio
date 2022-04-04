@@ -250,21 +250,21 @@ font-weight:500 ;
 
 /* projects section */
 .one{
-    background-image: url(./image/imag1.jpg);
+    background-image: url(./image/res.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     object-fit: contain;
 
 }
 .two{
-    background-image:url(./image/image2.jpg) ;
+    background-image:url(./image/github.png) ;
     background-size: cover;
     background-repeat: no-repeat;
     object-fit: contain;
 }
 
 .three{
-    background-image:url(./image/image3.jpeg) ;
+    background-image:url(./image/quiz.jpg) ;
     background-size: cover;
     background-repeat: no-repeat;
     object-fit: contain;
