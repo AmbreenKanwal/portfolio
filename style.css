@@ -95,7 +95,7 @@ a{
 
 
 /* content*/
-.content{
+#content{
     display: flex;
     width: 90%;
     justify-content: space-around;
@@ -154,7 +154,7 @@ font-weight:500 ;
    
  }
  /* skill section */
-.skills
+#skills
 {
     display: flex;
     width: 80%;
@@ -283,7 +283,7 @@ font-weight:500 ;
 
 
 
-.my-projects{
+#my-projects{
 
     display: flex;
     flex-direction: column;
@@ -364,7 +364,7 @@ font-weight:500 ;
 
 /* Client Section */
 
-.client{
+#client{
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -450,7 +450,7 @@ padding: 50px 0px;
 
 /* Contact Us */
 
-.contact
+#contact
 {
     display: flex;
     flex-direction: column;
